@@ -17,8 +17,11 @@ No scripts configured yet
 ## Authors
 
 Yevgen Yakovliev ([Github](https://github.com/JenyaFTW))
+
 Mykola Chub ([Github](https://github.com/nikolaichub))
+
 Artem Bondarchuk ([Github](https://github.com/artemkaxdxd))
+
 Alina Dyachenko ([Github](https://github.com/dyachaliin))
 
 ## Contributing
