@@ -1,0 +1,19 @@
+{
+  "name": "ognomdb",
+  "version": "1.0.0",
+  "description": "OgnomDB is an in-memory DBMS (Database Management System) built on Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenyaFTW/OgnomDB.git"
+  },
+  "author": "JenyaFTW",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JenyaFTW/OgnomDB/issues"
+  },
+  "homepage": "https://github.com/JenyaFTW/OgnomDB#readme"
+}

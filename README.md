@@ -27,6 +27,7 @@ Alina Dyachenko ([Github](https://github.com/dyachaliin))
 ## Contributing
 
 Contributions, issues and feature requests are welcome!
+
 Feel free to check the [issues page](https://github.com/JenyaFTW/OgnomDB/issues).
 
 ## License
