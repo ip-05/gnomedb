@@ -2,7 +2,7 @@
   "name": "ognomdb",
   "version": "1.0.0",
   "description": "OgnomDB is an in-memory DBMS (Database Management System) built on Node.js",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/JenyaFTW/OgnomDB/issues"
   },
-  "homepage": "https://github.com/JenyaFTW/OgnomDB#readme"
+  "homepage": "https://github.com/JenyaFTW/OgnomDB#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
