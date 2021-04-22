@@ -1,11 +1,14 @@
 'use strict';
 
-const DataStore = require('./lib/store.js');
+const BinarySearchTree = require('./lib/bst.js');
 
-const db = new DataStore();
+const tree = new BinarySearchTree({ fieldKey: 'id' });
 
-db.insert({ name: 'Jenya', age: 18 });
+tree.add({ id: 0, name: 'Yevgen' });
+tree.add({ id: 1, name: 'Jenya' });
+tree.add({ id: -55, name: 'Jenya' });
+tree.add({ id: 9, name: 'Jenya' });
+tree.add({ id: 5, name: 'Jenya' });
+tree.add({ id: 25, name: 'Jenya' });
 
-const me1 = db.select({ name: 'Jenya' });
-
-console.log(me1);
+console.dir({ tree }, { depth: 100 });
