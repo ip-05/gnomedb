@@ -17,3 +17,5 @@ const treeMax = tree.findMax();
 
 console.dir({ treeMin });
 console.dir({ treeMax });
+
+console.dir({ tree }, { depth: null });
