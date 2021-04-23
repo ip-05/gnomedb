@@ -12,4 +12,10 @@ tree.add({ id: 50, name: 'Yevgen' });
 tree.add({ id: 75, name: 'Yevgen' });
 tree.add({ id: 100, name: 'Yevgen' });
 
+const treeMin = tree.findMin();
+const treeMax = tree.findMax();
+
+console.dir({ treeMin });
+console.dir({ treeMax });
+
 console.dir({ tree }, { depth: null });
