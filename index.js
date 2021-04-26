@@ -2,15 +2,12 @@
 
 const BinarySearchTree = require('./lib/bst.js');
 
-const tree = new BinarySearchTree({ fieldKey: 'id' });
+const tree = new BinarySearchTree({ fieldKey: 'city' });
 
-tree.add({ id: -75, name: 'Yevgen' });
-tree.add({ id: -25, name: 'Yevgen' });
-tree.add({ id: -50, name: 'Yevgen' });
-tree.add({ id: 0, name: 'Yevgen' });
-tree.add({ id: 50, name: 'Yevgen' });
-tree.add({ id: 75, name: 'Yevgen' });
-tree.add({ id: 100, name: 'Yevgen' });
+tree.add({ _id: 0, name: 'Jenya', city: 'Kyiv' });
+tree.add({ _id: 1, name: 'Jenya2', city: 'Kyiv' });
+tree.add({ _id: 2, name: 'Jenya3', city: 'Kyiv' });
+tree.add({ _id: 3, name: 'Jenya4', city: 'Lviv' });
 
 const treeMin = tree.findMin();
 const treeMax = tree.findMax();
