@@ -16,3 +16,7 @@ console.dir({ treeMin });
 console.dir({ treeMax });
 
 console.dir({ tree }, { depth: null });
+
+const foundByKey = tree.findByKey( 'Kyiv' );
+
+console.dir({foundByKey});
