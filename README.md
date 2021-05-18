@@ -12,7 +12,10 @@ npm install
 
 ## Scripts
 
-No scripts configured yet
+Generate typescript declarations
+```
+npm run types
+```
 
 ## Authors
 
