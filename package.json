@@ -4,7 +4,8 @@
   "description": "OgnomDB is an in-memory DBMS (Database Management System) built on Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "types": "npx typescript"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/JenyaFTW/OgnomDB#readme",
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "eslint": "^7.25.0",
+    "eslint-config-metarhia": "^7.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7",
+    "prettier": "2.2.1",
+    "typescript": "^4.2.4"
   }
 }
