@@ -16,6 +16,7 @@ const dan = db.add({ name: 'Dan', age: 20, city: 'London' });
 const greaterThanEqualTo18 = db.find({ age: { $gte: 18 } });
 const greaterThan18 = db.find({ age: { $gt: 18 } });
 const warsaw = db.find({ city: 'Warsaw' });
-const lessThanEqualTo18 = db.find({ age: { $lte: 18 } });
 
-console.log(db.indeces.get('age'));
+console.dir({ greaterThanEqualTo18 }, { depth: null });
+console.dir({ greaterThan18 }, { depth: null });
+console.dir({ warsaw }, { depth: null });
