@@ -14,6 +14,8 @@ declare class BinarySearchTree {
     findMaxHeight(node?: Node): any;
     findMin(): any;
     findMax(): any;
+    getNodesLessThan(val: any): Cursor;
+    getNodesGreaterThan(val: any): Cursor;
     _compareKeys(a: any, b: any): any;
 }
 declare class Node {
@@ -24,4 +26,9 @@ declare class Node {
     right: any;
     getHeight(node?: Node): any;
     getChildren(node?: Node): any;
+}
+declare class Cursor {
+    constructor(nodes: any);
+    nodes: any;
+    getData(): any[];
 }

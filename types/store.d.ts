@@ -11,4 +11,5 @@ declare class DataStore {
     intersection(s1: any, s2: any): any;
     union(s1: any, s2: any): any;
     prepareDocument(doc: any): any;
+    _handleUndefined(s1: any, s2: any, op: any): any;
 }
