@@ -10,19 +10,14 @@ const tree = new BinarySearchTree({ fieldKey: 'city' });
 // tree.add({ _id: 3, name: 'Jenya4', city: 'Lviv' });
 
 const users = {
-    default : { _id: 0, name: 'default', city: 0 },
+    default : { _id: 0, name: 'default', city: 'London' },
     // Jenya : { _id: 1, name: 'Jenya', city: 12 },
-    Alina : { _id: 2, name: 'Alina', city: -2 },
+    Alina : { _id: 2, name: 'Alina', city: 'Odesa' },
     // Artem : { _id: 3, name: 'Artem', city: 1 },
-    Ivan : { _id: 4, name: 'Ivan', city: -4 },
-    Nick : { _id: 5, name: 'Nick', city: 4 },
-    Mary : { _id: 6, name: 'Mary', city: 2 },
-    hol : { _id: 6.5, name: 'hol', city: 1 },
-    kol : { _id: 6.7, name: 'kol', city: 3 },
-    Ann : { _id: 7, name: 'Ann', city: 6 },
-    Kate : { _id: 8, name: 'Kate', city: 5 },
-    Kolya : { _id: 9, name: 'Kolya', city: 7 },
-    Dima : { _id: 10, name: 'Dima', city: -1 },
+    Ivan : { _id: 4, name: 'Ivan', city: 'Orekhov' },
+    Nick : { _id: 5, name: 'Nick', city: 'Kyiv' },
+    Mary : { _id: 6, name: 'Mary', city: 'London' },
+    Ann : { _id: 7, name: 'Ann', city: 'Cherkassi' },
 }
 
 for(let name in users) {
@@ -33,7 +28,7 @@ for(let name in users) {
 // const treeMax = tree.findMax();
 
 tree.remove(users.Nick);
-console.log(tree.root.right.right);
+console.log(tree.root);
 
 // const treeMin = tree.findMin();
 // const treeMax = tree.findMax();
