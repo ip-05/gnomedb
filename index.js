@@ -1,5 +1,3 @@
-'use strict';
-
 const BinarySearchTree = require('./lib/bst.js');
 
 const tree = new BinarySearchTree({ fieldKey: 'city' });
