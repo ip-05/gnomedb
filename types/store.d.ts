@@ -1,5 +1,5 @@
 export = DataStore;
 declare class DataStore {
-    constructor(options?: {});
-    defaultFieldIndex: any;
+  constructor(options?: {});
+  defaultFieldIndex: any;
 }

@@ -13,6 +13,7 @@ npm install
 ## Scripts
 
 Generate typescript declarations
+
 ```
 npm run types
 ```

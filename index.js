@@ -1,6 +1,6 @@
 'use strict';
 
-const Store =  require('./lib/store.js');
+const Store = require('./lib/store.js');
 
 const db = new Store();
 

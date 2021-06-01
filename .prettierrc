@@ -1,5 +1,10 @@
 {
-  "printWidth": 100,
   "singleQuote": true,
-  "arrowParens": "avoid"
+  "arrowParens": "avoid",
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": { "parser": "json" }
+    }
+  ]
 }
