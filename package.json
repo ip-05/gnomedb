@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "types": "npx typescript"
+    "types": "npx typescript",
+    "lint": "npx eslint --fix . & npx prettier --write ."
   },
   "repository": {
     "type": "git",

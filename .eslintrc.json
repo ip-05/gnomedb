@@ -6,12 +6,18 @@
   },
   "extends": "eslint:recommended",
   "parserOptions": {
-    "ecmaVersion": 2018
+    "ecmaVersion": 2020
   },
   "rules": {
-    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
-    "quotes": ["error", "single"],
+    "quotes": [
+      "error",
+      "single",
+      {
+        "allowTemplateLiterals": true
+      }
+    ],
     "semi": ["error", "always"],
     "no-loop-func": ["error"],
     "block-spacing": ["error", "always"],
@@ -77,6 +83,7 @@
       }
     ],
     "new-parens": ["error"],
+    "no-lonely-if": ["error"],
     "no-trailing-spaces": ["error"],
     "no-unneeded-ternary": ["error"],
     "no-whitespace-before-property": ["error"],
