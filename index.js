@@ -1,8 +1,8 @@
 'use strict';
 
-const BinarySearchTree = require('./lib/bst.js');
+const Store =  require('./lib/store.js');
 
-const tree = new BinarySearchTree({ fieldKey: 'num' });
+const db = new Store();
 
 /*
  *
@@ -11,4 +11,4 @@ const tree = new BinarySearchTree({ fieldKey: 'num' });
  *
  */
 
-console.dir({ tree }, { depth: null });
+console.dir({ db }, { depth: null });
