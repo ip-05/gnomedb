@@ -4,7 +4,7 @@
   "description": "OgnomDB is an in-memory DBMS (Database Management System) built on Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha tests",
     "types": "npx typescript",
     "lint": "npx eslint --fix . & npx prettier --write ."
   },
