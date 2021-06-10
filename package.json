@@ -1,7 +1,7 @@
 {
-  "name": "ognomdb",
+  "name": "@gnomedb/gnomedb",
   "version": "1.0.0",
-  "description": "OgnomDB is an in-memory DBMS (Database Management System) built on Node.js",
+  "description": "GnomeDB is an in-memory DBMS (Database Management System) built on Node.js",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests",
@@ -10,14 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JenyaFTW/OgnomDB.git"
+    "url": "git+https://github.com/gnomedb/GnomeDB.git"
   },
-  "author": "JenyaFTW",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JenyaFTW/OgnomDB/issues"
+    "url": "https://github.com/gnomedb/GnomeDB/issues"
   },
-  "homepage": "https://github.com/JenyaFTW/OgnomDB#readme",
+  "homepage": "https://github.com/gnomedb/GnomeDB#readme",
   "devDependencies": {
     "eslint": "^7.27.0",
     "mocha": "^9.0.0",
