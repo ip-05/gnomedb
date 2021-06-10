@@ -70,16 +70,15 @@ describe('Data Store', () => {
 
   it('should find lte', () => {
     const store = new Store();
-    const [marcus, lucius, pius, hadrian, trajan] = store.addFrom(data);
+    const [, , pius, hadrian] = store.addFrom(data);
     const result = store.find({ born: { $lte: 86 } });
     assert.deepStrictEqual(result, new Set([pius, hadrian]));
   });
 
   it('should find lt', () => {
     const store = new Store();
-    const [marcus, lucius, pius, hadrian, trajan] = store.addFrom(data);
+    const [, , , hadrian] = store.addFrom(data);
     const result = store.find({ born: { $lt: 86 } });
     assert.deepStrictEqual(result, new Set([hadrian]));
   });
-
 });
