@@ -17,6 +17,7 @@ Generate typescript declarations
 ```
 npm run types
 ```
+
 Run linter
 
 ```
