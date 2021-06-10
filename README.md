@@ -1,6 +1,6 @@
-# OgnomDB
+# GnomeDB
 
-OgnomDB is an in-memory DBMS (Database Management System) built on Node.js
+GnomeDB is an in-memory DBMS (Database Management System) built on Node.js
 
 ## Installation
 
