@@ -67,4 +67,19 @@ describe('Data Store', () => {
     const result = store.find({ name: 'Marcus Aurelius' });
     assert.deepStrictEqual(result, new Set([marcus]));
   });
+
+  it('should find lte', () => {
+    const store = new Store();
+    const [marcus, lucius, pius, hadrian, trajan] = store.addFrom(data);
+    const result = store.find({ born: { $lte: 86 } });
+    assert.deepStrictEqual(result, new Set([pius, hadrian]));
+  });
+
+  it('should find lt', () => {
+    const store = new Store();
+    const [marcus, lucius, pius, hadrian, trajan] = store.addFrom(data);
+    const result = store.find({ born: { $lt: 86 } });
+    assert.deepStrictEqual(result, new Set([hadrian]));
+  });
+
 });
