@@ -1,6 +1,6 @@
 {
   "name": "@gnomedb/gnomedb",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GnomeDB is an in-memory DBMS (Database Management System) built on Node.js",
   "main": "index.js",
   "scripts": {
