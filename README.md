@@ -7,10 +7,16 @@ GnomeDB is an in-memory DBMS (Database Management System) built on Node.js
 Clone the repository and run npm installation command
 
 ```
-npm install
+npm install @gnomedb/gnomedb
 ```
 
 ## Scripts
+
+Run tests
+
+```
+npm run test
+```
 
 Generate typescript declarations
 
