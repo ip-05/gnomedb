@@ -20,6 +20,7 @@
   "homepage": "https://github.com/JenyaFTW/OgnomDB#readme",
   "devDependencies": {
     "eslint": "^7.27.0",
+    "mocha": "^9.0.0",
     "nodemon": "^2.0.7",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
