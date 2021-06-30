@@ -4,7 +4,7 @@
   "description": "GnomeDB is an in-memory DBMS (Database Management System) built on Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests",
+    "test": "npx mocha tests",
     "types": "npx typescript",
     "lint": "npx eslint --fix . & npx prettier --write ."
   },
