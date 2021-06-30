@@ -1,0 +1,28 @@
+{
+  "name": "@gnomedb/gnomedb",
+  "version": "1.0.4",
+  "description": "GnomeDB is an in-memory DBMS (Database Management System) built on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha tests",
+    "types": "npx typescript",
+    "lint": "npx eslint --fix . & npx prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnomedb/GnomeDB.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnomedb/GnomeDB/issues"
+  },
+  "homepage": "https://github.com/gnomedb/GnomeDB#readme",
+  "devDependencies": {
+    "eslint": "^7.27.0",
+    "mocha": "^9.0.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {}
+}
